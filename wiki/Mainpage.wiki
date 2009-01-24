@@ -1,13 +1,21 @@
-#summary One-sentence summary of this page.
+#summary Rasterbator-NG Wiki Mainpage
 
-= Introduction =
+== Rasterbator-NG ==
 
-Add your content here.
+===What is better in Rasterbator-NG then in the "original"Rasterbator?===
 
+  * Removed platform specific code (Rasterbator-NG works with Windows, MacOS X and Linux)
+  * Automatic selection of the language
+  * Creation of smaller PDF files
+  * A little bit faster
 
-= Details =
+=== TODO ===
 
-Add your content here.  Format your content with:
-  * Text in *bold* or _italic_
-  * Headings, paragraphs, and lists
-  * Automatic links to other wiki pages
+  * Update to latest itextsharp.dll
+  * Update to latest ICSharpCode.SharpZipLib.dll
+  * Create a new UI because the .resx file is missing, there is only the .resources
+  * Clean up the project file
+
+=== Help ===
+
+If you are interested in the code, check it out and contact me if you have improvements.
