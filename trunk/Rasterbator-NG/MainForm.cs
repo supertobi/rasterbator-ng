@@ -1,5 +1,5 @@
 
-// The Rasterbator-NG Standalone Version 1.0
+// The Rasterbator-NG Version 1.0
 // Copyright (C) 2004-2005 Matias Ärje
 //               2008-2009 Tobias Jakobs
 // 
@@ -773,7 +773,7 @@ namespace Rasterbator
       this.label25.Name = "label25";
       this.label25.Size = new System.Drawing.Size(600, 24);
 	  this.label25.TabIndex = 8;
-      this.label25.Text = "The Rasterbator-NG Standalone 1.0 - Licenced under GPL";
+      this.label25.Text = "The Rasterbator-NG 1.0 - Licenced under GPL";
 			
       // 
       // ContinueButton5

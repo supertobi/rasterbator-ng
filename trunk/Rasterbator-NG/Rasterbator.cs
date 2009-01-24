@@ -1,5 +1,5 @@
 
-// Rasterbator-NG Standalone Version 1.0
+// Rasterbator-NG Version 1.0
 // Copyright (C) 2004-2005 Matias Ärje
 //               2008-2009 Tobias Jakobs
 // 
