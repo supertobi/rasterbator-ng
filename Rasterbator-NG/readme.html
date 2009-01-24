@@ -1,0 +1,112 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>Rasterbator-NG 1.0</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<link href="docfiles/screen.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+<h1>Rasterbator-NG 1.0</h1>
+<h2>If it doesn't work...</h2>
+<p>Please ensure the following:</p>
+<ul>
+<li>You have extracted <b>entire</b> contents of the zip file</li>
+<li><a href="javascript:;" onclick="window.open('http://www.microsoft.com/downloads/details.aspx?FamilyID=262d25e3-f589-4842-8157-034d1e7cf3a3&amp;displaylang=en');">.NET Framework 1.1</a> or <a href="javascript:;" onclick="window.open('http://www.mono-project.com/');">Mono</a> is installed to your computer</li>
+</ul>
+
+<h2>Introduction</h2>
+<p>To see what's new in version 1.0, see the <a href="#changelog">Change Log</a>.</p>
+<p>Rasterbator-NG is an application which creates rasterized versions of images. The rasterized images can be printed and assembled into enormous (or smaller, if you prefer) posters. Enter the online <a href="javascript:;" onclick="window.open('http://homokaasu.org/rasterbator/gallery.gas');" onmouseover="window.status='http://homokaasu.org/rasterbator/gallery.gas';return true;" onmouseout="window.status='';return true;">Rasterbation Gallery</a> to see what the images look like.</p>
+<p>Rasterbator-NG originated as a <a href="javascript:;" onclick="window.open('http://homokaasu.org/rasterbator/');" onmouseover="window.status='http://homokaasu.org/rasterbator/';return true;" onmouseout="window.status='';return true;">web application</a> at <a href="javascript:;" onclick="window.open('http://homokaasu.org');" onmouseover="window.status='http://homokaasu.org';return true;" onmouseout="window.status='';return true;">homokaasu.org</a>, but it has gained so much popularity that the web server occassionally cannot handle the load and a standalone version was in place.</p>
+<p>The standalone version is the same as the web version, except that downloading images from the web and image cropping are not supported, and you have to set the output size numerically (number of pages wide/high) rather than using a fancy drag handle. The results are exactly the same.</p>
+<h2>Download</h2>
+<p>The zip file includes the application, its source code and MonoDevelop project files. The program is licensed under the <a href="javascript:;" onclick="window.open('http://www.gnu.org/copyleft/gpl.html');" onmouseover="window.status='http://www.gnu.org/copyleft/gpl.html';return true;" onmouseout="window.status='';return true;">GPL</a>.</p>
+<p> The application requires <a href="javascript:;" onclick="window.open('http://www.microsoft.com/downloads/details.aspx?FamilyID=262d25e3-f589-4842-8157-034d1e7cf3a3&amp;displaylang=en');" onmouseover="window.status='http://www.microsoft.com/downloads/details.aspx?FamilyID=262d25e3-f589-4842-8157-034d1e7cf3a3&amp;displaylang=en';return true;" onmouseout="window.status='';return true;">.NET Framework 1.1</a>.To print the posters, you need a pdf reader such as <a href="javascript:;" onclick="window.open('http://www.adobe.com/products/acrobat/readstep2.html');" onmouseover="window.status='http://www.adobe.com/products/acrobat/readstep2.html';return true;" onmouseout="window.status='';return true;">Adobe Reader</a>. The application might also work with .NET Framework 1.0 (comes with Windows XP) and <a href="javascript:;" onclick="window.open('http://go-mono.com');" onmouseover="window.status='http://go-mono.com';return true;" onmouseout="window.status='';return true;">Mono</a> (available for many platforms, such as Linux or Mac), but the compatibility has not been tested. If you manage to run it on Linux or Mac, please tell me!</p>
+<p>Rasterbator-NG uses <a href="javascript:;" onclick="window.open('http://itextsharp.sourceforge.net/');" onmouseover="window.status='http://itextsharp.sourceforge.net/';return true;" onmouseout="window.status='';return true;">iTextSharp</a> and <a href="javascript:;" onclick="window.open('http://www.icsharpcode.net/OpenSource/SharpZipLib/');" onmouseover="window.status='http://www.icsharpcode.net/OpenSource/SharpZipLib/';return true;" onmouseout="window.status='';return true;">SharpZipLib</a> libraries. These are included in the file.</p>
+
+<h2>Instructions</h2>
+<h3>Installation</h3>
+<p>No installation is needed. Just unzip the file contents and run the included Rasterbator.exe application. The application is wizard-like, which means it asks you questions and you click Continue button (or Back if you want to change what you previously answered). There are five screens with different options.</p>
+<h3>1. Select source image</h3>
+<p>In this phase you need to select the image you wish to rasterbate from your hard disk. Either enter the file name (with path, such as c:\images\snowman.jpg) in the box, or click Browse... to open the standard file dialog, which you can use to select the file. Note that the Continue button will be disabled if the file does not exist.</p>
+<h3>2. Select paper size</h3>
+<p>The rasterbated image will automatically be split onto several pages and in this screen you select the size of the paper you wish to use. Either use one of the predefined paper sizes (such as A4 or US Letter) and choose either portait or landscape printing (horizontal or vertical alignment of the paper), or use custom paper size. In the latter case, you need to input the paper width and height in millimeters.</p>
+<h3><img src="docfiles/rast-3.jpg" style="border: 10px solid rgb(255, 255, 255); float: right; width: 400px; height: 314px;" alt="" />3. Define output size</h3>
+<p>Using the paper size you selected, choose the size of the rasterbated poster you wish to use. You can define a specific amount of papers to both dimensions: width and height. The other dimension will be calculated automatically from the dimensions of the source image. The image size and paper consumption will be displayed on the page. Also, the preview image will show how the image will be distributed to different pages.</p>
+<h3>4. Set rasterbation options</h3>
+<p>In this screen you set up the preferred output options. The options are the following:</p>
+<ul>
+<li><b>Draw cutout line around rasterbated area</b> (default value: on)<br /> This option wil draw a dim rectangle around the rasterbation graphic of each page. The border will make it considerably easier to cut away the empty margins. If you plan not to cut out the margins, you should uncheck this.</li>
+<li><b>Dot size</b> (default value: 10 mm)<br /> Dot size defines the maximum size of the dots of the rasterbation. As a general rule, select small dot size for small output images and larger dot size for bigger output images. For a typical rasterbation job, good values are between 5 and 25 mm. Please note that dot size is not the distance between centers of adjacent dots, as the dots may overlap.</li>
+<li><b>Color mode</b> (default value: black)<br /> The color mode affects the color of the dots in the poster. Black and custom color mean one-colored dots: the brightness is conveyed by using smaller or bigger dots. Multi-color includes the original color from the source image to the rasterbated poster.</li>
+</ul><h3>5. Save rasterbation as</h3>
+<p>This should be pretty easy. The default value for the output file is the file name and directory of the source file, except that the file suffix (such as .jpg) is replaced with .pdf. If a file of the similar name exists, the suggested output file name will be suffixed with such a number that there exists no file the name.</p>
+<h3><img src="docfiles/rast-6.jpg" alt="" width="400" height="314" style="border: 10px solid rgb(255, 255, 255); float: right; width: 400px; height: 314px;" />Rasterbate!</h3> 
+<p>Then, click the Rasterbate! button. The program will produce the output image. If you want to use other programs while rasterbating, check the "Rasterbate on low priority" option. This will slow down the rasterbating, but it makes other programs more responsive.</p>
+<p>When the rasterbation is completed, you have the option to automatically open the produced image file (requires that you have a pdf reader in your computer system).<br /><h2>If you like it...</h2>
+<p>Rasterbator-NG is free, but surprisingly many users of the web version would have liked to make a contribution. Please consider making a donation to, for example, the following organisations instead of me:</p><ul><li><a href="javascript:;" onclick="window.open('http://effi.org/yhdistys/lahjoitukset.en.html?tmplang=en');" onmouseover="window.status='http://effi.org/yhdistys/lahjoitukset.en.html?tmplang=en';return true;" onmouseout="window.status='';return true;">Electronic Frontier Finland ry.</a></li><li><a href="javascript:;" onclick="window.open('http://www.eff.org/support/');" onmouseover="window.status='http://www.eff.org/support/';return true;" onmouseout="window.status='';return true;">Electronic Frontier Foundation</a></li><li><a href="javascript:;" onclick="window.open('http://www.downhillbattle.org/postal/donate.php');" onmouseover="window.status='http://www.downhillbattle.org/postal/donate.php';return true;" onmouseout="window.status='';return true;">Downhill Battle</a></li><li><a href="javascript:;" onclick="window.open('http://www.ffii.org/ffii-cgi/aktiv?f=cons46&amp;l=en');" onmouseover="window.status='http://www.ffii.org/ffii-cgi/aktiv?f=cons46&amp;l=en';return true;" onmouseout="window.status='';return true;">Foundation for a Free Information Infrastructure</a></li>
+<li><a href="javascript:;" onclick="window.open('http://web.amnesty.org/pages/donate_now');" onmouseover="window.status='http://web.amnesty.org/pages/donate_now';return true;" onmouseout="window.status='';return true;">Amnesty International</a></li><li><a href="javascript:;" onclick="window.open('http://www.indymedia.org/en/static/support.shtml');" onmouseover="window.status='http://www.indymedia.org/en/static/support.shtml';return true;" onmouseout="window.status='';return true;">Independent Media Center</a></li></ul>
+
+<h2>Language files</h2>
+<p>The language files for different languages are located in subdirectory <i>languages</i>. To translate the program into a new language, just make a copy of an existing file and edit it with a text editor. The file looks like this:</p>
+<div style="font-family:Courier, Monospace;font-size:12px;">
+  &lt;language englishname="<span style="font-family:Courier, Monospace;font-size:12px;background:#aaffaa;">English</span>" nativename="<span style="font-family:Courier, Monospace;font-size:12px;background:#aaffaa;">English</span>" TwoLetterISOLanguageName="<span style="font-family:Courier, Monospace;font-size:12px;background:#aaffaa;">en</span>"&gt;<br />
+
+  &lt;!-- Welcome --&gt;<br />
+  &nbsp;&nbsp;&lt;item name="WelcomeTitle"&gt;<span style="font-family:Courier, Monospace;font-size:12px;background:#aaffaa;">Welcome to Rasterbator-NG</span>&lt;/item&gt;<br />
+  &nbsp;&nbsp;&lt;item name="WelcomeInfo"&gt;<span style="font-family:Courier, Monospace;font-size:12px;background:#aaffaa;">Rasterbator-NG creates huge, rasterized, multi-page images from any picture. The rasterized images can be printed and assembled into extremely cool posters.</span>&lt;/item&gt;<br />
+  ...
+</div>
+<p>Then edit the areas marked with green. If the file is located in <i>languages</i>, it should be available in the list of languages automatically when the application is started the next time. Make sure the file is valid xml and encoded using UTF-8.</p>
+
+<a name="changelog"></a>
+<h2>Change log</h2>
+<h3>6.7.2008 - version 1.0 released</h3>
+<ul>
+<li>Removed platform specific code</li>
+<li>Automatic selection of the language</li>
+<li>Creation of smaller PDF files</li>
+</ul>
+
+<h2>Change log from "The Rasterbator"</h2>
+<h3>28.7.2005 - version 1.21 released</h3>
+<ul>
+<li>New languages: Croatian, Czech, Danish, Norwegian, Romanian</li>
+<li>Minor bug fixes, especially in handling of nonexistent directories</li>
+</ul>
+
+<h3>6.3.2005 - version 1.2 released</h3>
+<ul>
+<li>The installation package includes now the following translations: Dutch, English, Finnish, French, German, Italian and Spanish. Thanks for everyone who sent language files!</li>
+<li>A little better error handling: on failed rasterbation an error message will be shown instead of silent failure</li>
+<li>Optimized bitmap reading speeds up the rasterbation of jpeg, png and tiff images.</li>
+<li>Optimized rasterbation algorithm.</li>
+</ul>
+
+<h3>12.2.2005 - version 1.1 released</h3>
+<ul>
+<li>Support for multiple languages</li>
+<li>Finnish and German translations. Special thanks to Dominik Zirkelbach for the German translation. Visit his German Rasterbator support site at <a href="http://www.rasterbator.de.vu/" target="_blank">http://www.rasterbator.de.vu/</a>.</li>
+<li>Output dot size was smaller than selected (bug in the conversion from mm to pdf units)</li>
+<li>If the required dll files aren't available an a error dialog box was shown instead of a silent failure</li>
+<li>Symbols depicting portrait and landscape paper alignment</li>
+<li>Resizable window (enables bigger preview output image)</li>
+</ul>
+
+<h3>6.2.2005 - version 1.0 released</h3>
+<ul>
+<li>Initial version</li>
+</ul>
+
+<h2>Rasterbator on the web </h2>
+<ul>
+<li><a href="http://code.google.com/p/rasterbator-ng/">Rasterbation-NG Homepage</a></li>
+<li><a href="http://arje.net/rasterbator">Rasterbator homepage</a></li>
+<li><a href="http://homokaasu.org/rasterbator/">Rasterbator on the web</a></li>
+<li><a href="http://homokaasu.org/rasterbator/gallery.gas">Rasterbation gallery</a></li>
+</ul>
+<p>Matias &Auml;rje 2005 - <a href="mailto:rasterbator@arje.net">rasterbator@arje.net</a> </p>
+<p>Tobias Jakobs 2008-2009 - <a href="mailto:tobias.jakobs@googlemail.com">tobias.jakobs@googlemail.com</a> </p>
+</body>
+</html>

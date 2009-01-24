@@ -1,0 +1,83 @@
+<?xml version="1.0" standalone="yes"?>
+<language englishname="Croatian" nativename="Hrvatski" TwoLetterISOLanguageName="hr">
+
+<!-- Welcome -->
+  <item name="WelcomeTitle">Dobrodošli u Rasterbator</item>
+  <item name="WelcomeInfo">Rasterbator stvara velike, rasterizirane, višestranične postere iz bilo koje slike. Rasterizirane slike se mogu ispisati i složiti u iznimno cool postere.</item>
+  <item name="SelectLanguageLabel">Molimo odaberite jezik:</item>
+  <item name="TranslatorInfo"></item>
+  <item name="TranslatorUrl"></item>
+  <item name="ContinueButton1">Dalje &gt;</item>
+
+<!-- 1. Select source image -->
+  <item name="SelectSourceImageLabel">Odaberite sliku (1/5)</item>
+  <item name="BrowseButton1">Traži...</item>
+  <item name="SelectSource">Odaberite izvor Rasterbacije...</item>
+  <item name="SelectSourceFilter">datoteke slika (*.jpg, *.png, *.gif, *.tif, *.bmp)|*.jpg;*.gif;*.png;*.tif;*.tiff;*.jpeg;*.bmp|All files (*.*)|*.*</item>
+  <item name="BackButton1">&lt; Nazad</item>
+  <item name="ContinueButton2">Dalje &gt;</item>
+
+<!-- 2. Select paper size -->
+  <item name="PaperSizeLabel">Odaberite veličinu papira (2/5)</item>
+  <item name="StandardPaperRadio">Koristi standardnu veličinu papira</item>
+  <item name="PaperSizeCombo">A4 (210x297 mm)|A3 (297x420 mm)|US Letter (216x279 mm)|US Legal (216x356 mm)</item>
+  <item name="PaperAlignCombo">okomito|vodoravno</item>
+  <item name="CustomPaperRadio">Koristi drugu veličinu papira</item>
+  <item name="WidthLabel">Širina</item>
+  <item name="HeightLabel">Visina</item>
+  <item name="BackButton2">&lt; Nazad</item>
+  <item name="ContinueButton3">Dalje &gt;</item>
+
+<!-- 3. Define output size -->
+  <item name="OutputSizeLabel">Odredite konačnu veličinu (3/5)</item>
+  <item name="SheetsLabel">listova</item>
+  <item name="MeasureDimensionCombo">široko|visoko</item>
+  <item name="OutputImageSize">Konačna veličina postera:</item>
+  <item name="PaperConsumption">Količina papira:</item>
+  <item name="sheet">list</item>
+  <item name="sheets">listova</item>
+  <item name="BackButton3">&lt; Nazad</item>
+  <item name="ContinueButton4">Dalje &gt;</item>
+
+<!-- 4. Set rasterbation options -->
+  <item name="SetOptionsLabel">Namjestite opcije rasterbacije (4/5)</item>
+  <item name="CutoutCheckbox">Nacrtaj linije za izrezivanje oko rasteriziranog područja</item>
+  <item name="CutoutInfoLabel">Ova opcija će nacrtati blijedi okvir oko rasterbacije na svakoj stranici. Granica će omogućiti puno jednostavnije izrezivanje praznih margina. Ako ne planirate izrezivati margine, nemojte ovo označiti.</item>
+  <item name="DotSizeLabel">Vel. točke</item>
+  <item name="DotSizeInfoLabel">Veličina točke određuje maksimalnu veličinu točaka rasterbacije. Tipična veličina je 5-25 mm, ali mogu se koristiti i druge veličine, ako se želite igrati.</item>
+  <item name="ColorModeLabel">Boja</item>
+  <item name="BlackRadio">Crna</item>
+  <item name="CustomColorRadio">Druga boja:</item>
+  <item name="SelectButton">Odaberite...</item>
+  <item name="MultiColorRadio">Višebojno</item>
+  <item name="BackButton4">&lt; Nazad</item>
+  <item name="ContinueButton5">Dalje &gt;</item>
+  <item name="ConfirmOptions">Potvrdite opcije</item>
+  <item name="SmallDotSizeWarning">Rasterbacija malim veličinama točaka (manje od 3 mm) troši puno memorije i dugo traje. Želite li nastaviti?</item>
+
+<!-- 5. Save rasterbation as -->
+  <item name="SaveAsLabel">Spremi rasterbaciju kao (5/5)</item>
+  <item name="BrowseButton2">Traži...</item>
+  <item name="SelectTargetFilter">Pdf datoteke (*.pdf)|*.pdf</item>
+  <item name="BackButton5">&lt; Nazad</item>
+  <item name="RasterbateButton">Rasterbiraj!</item>
+
+<!-- Rasterbating! -->
+  <item name="PleaseWaitLabel">Rasterbiram, molim pričekajte...</item>
+  <item name="EstimatedTimeRemainingLabel">Procjena vremena:</item>
+  <item name="hour">sat</item>
+  <item name="hours">sati</item>
+  <item name="minute">minuta</item>
+  <item name="minutes">minuta</item>
+  <item name="second">sekunda</item>
+  <item name="seconds">sekundi</item>
+  <item name="LowPriorityRasterbation">Rasterbiraj na niskom prioritetu</item>
+  <item name="RasterbateBackgroundInfoLabel">Odaberite ovo ako želite koristiti druge programe tijekom rasterbiranja. Rasterbacija će duže trajati, ali će drugi programi biti dostupniji.</item>
+
+<!-- Completed -->
+  <item name="CompletedLabel">Rasterbacija završena!</item>
+  <item name="PrintInfoLabel">Kada budete ispisivali sliku u Adobe Reader-u, odaberite Page scaling: Fit to paper u prozoru opcija koji će se pojaviti. Ako odaberete horizontal paper alignment, također morate odabrati Auto-Rotate and Center. Većina pisača ne može ispisivati margine papira - ove opcije osiguravaju kompletan ispis svih slika.</item>
+  <item name="GalleryPlugLabel">Molimo fotografirajte vašu sliku i pošaljite je u Rasterbation Gallery!</item>
+  <item name="OpenFileCheckbox">Otvori rastikuliranu datoteku</item>
+  <item name="CloseApplicationButton">Zatvori program</item>
+</language>

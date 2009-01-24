@@ -1,0 +1,22 @@
+﻿<UserCombinePreferences version="1.0" filename="/home/tobias/svn/rasterbator-ng/Rasterbator-NG/Rasterbator-NG.mds">
+  <Files>
+    <File name="Welcome" />
+    <File name="MainForm.cs" line="20" column="1" />
+    <File name="Rasterbator.cs" line="105" column="3" />
+  </Files>
+  <Views>
+    <ViewMemento id="ProjectPad">
+      <Node expanded="True" />
+    </ViewMemento>
+    <ViewMemento id="ClassPad">
+      <Node />
+    </ViewMemento>
+    <ViewMemento id="ConnectionManagerPad">
+      <Node expanded="True" />
+    </ViewMemento>
+  </Views>
+  <Properties>
+    <Property key="ActiveWindow" value="Welcome" />
+    <Property key="ActiveConfiguration" value="Debug" />
+  </Properties>
+</UserCombinePreferences>

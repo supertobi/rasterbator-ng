@@ -1,0 +1,83 @@
+<?xml version="1.0" standalone="yes"?>
+<language englishname="Dutch" nativename="Dutch" TwoLetterISOLanguageName="nl">
+
+<!-- Welkom -->
+  <item name="WelcomeTitle">Welkom bij de Rasterbator</item>
+  <item name="WelcomeInfo">De Rasterbator creert enorm grote gerasterde afbeeldingen verdeeld over meerdere pagina's van uw eigen afbeelding. De gerasterde afbeelding kunt u printen en vervolgens aanelkaar worden geassembleerd tot gave posters.</item>
+  <item name="SelectLanguageLabel">Selecteerd a.u.b uw taal:</item>
+  <item name="TranslatorInfo"></item>
+  <item name="TranslatorUrl"></item>
+  <item name="ContinueButton1">Doorgaan &gt;</item>
+
+<!-- 1. Selecteer bron afbeelding -->
+  <item name="SelectSourceImageLabel">Selecteer bron afbeelding (1/5)</item>
+  <item name="BrowseButton1">Zoeken...</item>
+  <item name="SelectSource">Selecteer Rasterbation bron...</item>
+  <item name="SelectSourceFilter">Afbeelding bestanden (*.jpg, *.png, *.gif, *.tif, *.bmp)|*.jpg;*.gif;*.png;*.tif;*.tiff;*.jpeg;*.bmp|Alle bestanden (*.*)|*.*</item>
+  <item name="BackButton1">&lt; Terug</item>
+  <item name="ContinueButton2">Doorgaan &gt;</item>
+
+<!-- 2. Selecteer papier grote -->
+  <item name="PaperSizeLabel">Selecteer papier grote (2/5)</item>
+  <item name="StandardPaperRadio">Gebruik standaard papier grote</item>
+  <item name="PaperSizeCombo">A4 (210x297 mm)|A3 (297x420 mm)|US Letter (216x279 mm)|US Legal (216x356 mm)</item>
+  <item name="PaperAlignCombo">portrait|landscape</item>
+  <item name="CustomPaperRadio">Gebruik zelfgedefinieerde papier grote</item>
+  <item name="WidthLabel">Breedte</item>
+  <item name="HeightLabel">Hoogte</item>
+  <item name="BackButton2">&lt; Terug</item>
+  <item name="ContinueButton3">Doorgaan &gt;</item>
+
+<!-- 3. Definieer doel grote -->
+  <item name="OutputSizeLabel">Definieer doel grote (3/5)</item>
+  <item name="SheetsLabel">bladzijden</item>
+  <item name="MeasureDimensionCombo">breedte|hoog</item>
+  <item name="OutputImageSize">Doel afbeelding grote:</item>
+  <item name="PaperConsumption">Papier verbruik:</item>
+  <item name="sheet">bladzijde</item>
+  <item name="sheets">bladzijden</item>
+  <item name="BackButton3">&lt; Terug</item>
+  <item name="ContinueButton4">Doorgaan &gt;</item>
+
+<!-- 4. Instellen rasterbation opties -->
+  <item name="SetOptionsLabel">Instellen rasterbation opties (4/5)</item>
+  <item name="CutoutCheckbox">Afdrukken afkniprand, omringend het rasterbation gebied</item>
+  <item name="CutoutInfoLabel">Deze optie zal een gedimde rechthoek afdrukken omringende het rasterbation afbeelding bij elke bladzijde. De rand maakt het aanzienlijk makkelijker om deze witte onbedrukte marge te verwijderen. Als u neit van plan bent deze onbedrukte rand te verwijderen, vink dat deze optie uit.</item>
+  <item name="DotSizeLabel">Punt grote</item>
+  <item name="DotSizeInfoLabel">Put grote definieert de maximum grote van de punten van de rasterbatie (hoe lager de punt grote hoe hoger de resolutie van de rasterbatie). Normale marge is 5 - 25 mm, maar andere groten kunnen worden gebruikt, als u hier mee wilt spelen.</item>
+  <item name="ColorModeLabel">Kleur mode</item>
+  <item name="BlackRadio">Zwart</item>
+  <item name="CustomColorRadio">Eigen kleur:</item>
+  <item name="SelectButton">Selecteer...</item>
+  <item name="MultiColorRadio">Meedere-kleuren</item>
+  <item name="BackButton4">&lt; Terug</item>
+  <item name="ContinueButton5">Doorgaan &gt;</item>
+  <item name="ConfirmOptions">Bevestig opties</item>
+  <item name="SmallDotSizeWarning">Rasterizeren gebruimaken van kleuren punt grootte (midner dan 3mm) consumeert een groot deel van het computergeheugen en kan een zeer lange tijd duren. Wilt u doorgaan?</item>
+
+<!-- 5. Opslaan rasterbation als -->
+  <item name="SaveAsLabel">Opslaan rasterbation als (5/5)</item>
+  <item name="BrowseButton2">Zoeken...</item>
+  <item name="SelectTargetFilter">Pdf bestanden (*.pdf)|*.pdf</item>
+  <item name="BackButton5">&lt; Terug</item>
+  <item name="RasterbateButton">Rasterbate!</item>
+
+<!-- Rasterbating! -->
+  <item name="PleaseWaitLabel">Rasterizeren, geduld a.u.b...</item>
+  <item name="EstimatedTimeRemainingLabel">Geschatte tijd tot voltooing:</item>
+  <item name="hour">uur</item>
+  <item name="hours">uren</item>
+  <item name="minute">minuut</item>
+  <item name="minutes">minuten</item>
+  <item name="second">seconde</item>
+  <item name="seconds">seconden</item>
+  <item name="LowPriorityRasterbation">Rasterbate op lage prioriteit</item>
+  <item name="RasterbateBackgroundInfoLabel">Vink deze optie aan als u andere programma's wilt gebruiken tijden het rasterizeren. Het rasterizeren zal hierdoor langer duren, maar de andere gebruikte programma's zijn sneller.</item>
+
+<!-- Voltooid -->
+  <item name="CompletedLabel">Rasterbation voltooid!</item>
+  <item name="PrintInfoLabel">Bij het afdrukken van de afbeelding in Adobe Reader, kies dan voor de optie Page scaling (Pagina schalen): Fit to paper wanner het optie menu verschijnt. Als u heeft gekozen voor de landscape pagina uitlijning, controleer dan ook dat Auto-Rotate en Center (Centreren) zijn geselecteerd. De meeste printers kunnen niet zonder marges printen (volle papier benutten). - deze instellingen verzekeren dat alle afbeeldingen volledig zullen worden afgedrukt (en dus een klein deel vervalt in de pagina marge).</item>
+  <item name="GalleryPlugLabel">Neemt u a.u.b een foto van uw afbeelding en mail deze naar de Rasterbation Gallery!</item>
+  <item name="OpenFileCheckbox">Openen gerasterd bestand</item>
+  <item name="CloseApplicationButton">Sluiten applicatie</item>
+</language>

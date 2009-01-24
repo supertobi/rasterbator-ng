@@ -1,0 +1,82 @@
+<?xml version="1.0" standalone="yes"?>
+<language englishname="German" nativename="Deutsch" TwoLetterISOLanguageName="de">
+<!-- Welcome -->
+  <item name="WelcomeTitle">Willkommen im Rasterbator!</item>
+  <item name="WelcomeInfo">Der Rasterbator erstellt beliebig große, in mehrere Seiten aufgegliederte Bilder aus jedem Photo oder jeder Grafik. Die hochgerasterten Bilder können selbst ausgedruckt und zu sehr cool aussehenden Postern zusammengeklebt werden.</item>
+  <item name="SelectLanguageLabel">Bitte wählen sie ihre Sprache aus:</item>
+  <item name="TranslatorInfo">Übersetzt von: Dominik Zirkelbach (mit Unterstützung von Ellen Zirkelbach)</item>
+  <item name="TranslatorUrl">http://www.rasterbator.de.vu</item>
+  <item name="ContinueButton1">Weiter &gt;</item>
+
+<!-- 1. Select source image -->
+  <item name="SelectSourceImageLabel">Bitte wählen sie ihr Originalbild aus! (Schritt 1/5)</item>
+  <item name="BrowseButton1">Durchsuchen...</item>
+  <item name="SelectSource">Bitte wählen sie ihr Originalbild</item>
+  <item name="SelectSourceFilter">Bilddateien (*.jpg, *.png, *.gif, *.tif, *.bmp)|*.jpg;*.gif;*.png;*.tif;*.tiff;*.jpeg;*.bmp|Alle Dateien (*.*)|*.*</item>
+  <item name="BackButton1">&lt; Zurück</item>
+  <item name="ContinueButton2">Weiter &gt;</item>
+
+<!-- 2. Select paper size -->
+  <item name="PaperSizeLabel">Bitte wählen sie die Papiergröße aus! (Schritt 2/5)</item>
+  <item name="StandardPaperRadio">Standardgrößen benutzen</item>
+  <item name="PaperSizeCombo">A4 (210x297 mm)|A3 (297x420 mm)|US Letter (216x279 mm)|US Legal (216x356 mm)</item>
+  <item name="PaperAlignCombo">Hochformat|Querformat</item>
+  <item name="CustomPaperRadio">Benutzerdefinierte Größen benutzen</item>
+  <item name="WidthLabel">Breite</item>
+  <item name="HeightLabel">Höhe</item>
+  <item name="BackButton2">&lt; Zurück</item>
+  <item name="ContinueButton3">Weiter &gt;</item>
+
+<!-- 3. Define output size -->
+  <item name="OutputSizeLabel">Bitte wählen sie die Ausgabegröße (Schritt 3/5)</item>
+  <item name="SheetsLabel">Blätter</item>
+  <item name="MeasureDimensionCombo">Breite|Höhe</item>
+  <item name="OutputImageSize">Größe des Ausgabebildes:</item>
+  <item name="PaperConsumption">Papierverbrauch:</item>
+  <item name="sheet">Blätter</item>
+  <item name="sheets">Blätter</item>
+  <item name="BackButton3">&lt; Zurück</item>
+  <item name="ContinueButton4">Weiter &gt;</item>
+
+<!-- 4. Set rasterbation options -->
+  <item name="SetOptionsLabel">Bitte wählen sie die Optionen (Schritt 4/5)</item>
+  <item name="CutoutCheckbox">Schnittlinie um die hochgerechnete Fläche zeichnen</item>
+  <item name="CutoutInfoLabel">Diese Option zeichnet eine dünne Linie um die Grafik jeder Seite. Diese Linie erleichtert es, die eventuell entstehenden weißen Flächen abzuschneiden. Falls Sie nicht vorhaben, diese Ränder abzuschneiden, oder ihr Drucker randlos drucken kann sollten sie diese Option abschalten.</item>
+  <item name="DotSizeLabel">Pixelgröße</item>
+  <item name="DotSizeInfoLabel">Die Pixelgröße legt die maximale Größe der Punkte des Ausgabebildes fest. Die typischen Größen liegen zwischen 5 und 25 mm; Sie können aber auch andere Größen benutzen. Wählen Sie große Punkte für große Bilder und kleine für kleinere Ausgaben.</item>
+  <item name="ColorModeLabel">Farbmodus</item>
+  <item name="BlackRadio">Schwarz-Weiß</item>
+  <item name="CustomColorRadio">Benutzerdefinierte Farbe</item>
+  <item name="SelectButton">Auswählen...</item>
+  <item name="MultiColorRadio">Originalfarben</item>
+  <item name="BackButton4">&lt; Zurück</item>
+  <item name="ContinueButton5">Weiter &gt;</item>
+  <item name="ConfirmOptions">Erweiterte Einstellungen</item>
+  <item name="SmallDotSizeWarning">Das berechnen von Bildern mit sehr kleinen Bildpunkten (kleiner als 3 mm) benötigt sehr viel Speicherplatz und dauert sehr lange! Wollen sie fortfahren?</item>
+
+<!-- 5. Save rasterbation as -->
+  <item name="SaveAsLabel">Rasterbation speichern unter (Scritt 5/5)</item>
+  <item name="BrowseButton2">Durchsuchen...</item>
+  <item name="SelectTargetFilter">Pdf Dateien (*.pdf)|*.pdf</item>
+  <item name="BackButton5">&lt; Zurück</item>
+  <item name="RasterbateButton">Hochrechnen!</item>
+
+<!-- Rasterbating! -->
+  <item name="PleaseWaitLabel">Berechnung läuft, bitte warten...</item>
+  <item name="EstimatedTimeRemainingLabel">Geschätzte Restzeit:</item>
+  <item name="hour">Stunde</item>
+  <item name="hours">Stunden</item>
+  <item name="minute">Minute</item>
+  <item name="minutes">Minuten</item>
+  <item name="second">Sekunde</item>
+  <item name="seconds">Sekunden</item>
+  <item name="LowPriorityRasterbation">Auf niedrige Priorität setzen</item>
+  <item name="RasterbateBackgroundInfoLabel">Benutzen Sie diese Funktion, wenn Sie andere Programme während des Rechenvorgangs benutzen wollen. Die Berechnung wird dann zwar etwas länger dauern, aber andere Programme werden schneller ausgeführt.</item>
+
+<!-- Completed -->
+  <item name="CompletedLabel">Berechnung abgeschlossen!</item>
+  <item name="PrintInfoLabel">Wenn Sie das Bild mit Adobe Acrobat Reader drucken, wählen Sie unter „Kopien und Anpassungen“, „Große Seiten auf Seite verkleinern“ und „Seite automatisch drehen und zentrieren“ an. Da die meisten Drucker nicht bis an die Blattränder drucken können, wird somit sichergestellt, dass das Poster komplett gedruckt wird.</item>
+  <item name="GalleryPlugLabel">Bitte machen Sie ein Foto Ihres ausgedruckten Posters und schicken es an die Rasterbation Gallery!</item>
+  <item name="OpenFileCheckbox">Berechnetes Poster öffnen</item>
+  <item name="CloseApplicationButton">Anwendung schließen</item>
+</language>
