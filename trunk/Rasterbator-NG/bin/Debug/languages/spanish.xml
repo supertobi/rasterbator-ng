@@ -1,0 +1,85 @@
+<?xml version="1.0" standalone="yes"?>
+<language englishname="Spanish" nativename="Español" TwoLetterISOLanguageName="es">
+
+<!-- Welcome -->
+  <item name="WelcomeTitle">Bienvenido al Rasterbator</item>
+  <item name="WelcomeInfo">El Rasterbator crea enormes imágenes rasterizadas en múltiples páginas a partir de cualquier foto. Las imágenes rasterizadas se pueden imprimir y ensamblar, creando posters espectaculares.</item>
+  <item name="SelectLanguageLabel">Selecciona el idioma:</item>
+  <item name="TranslatorInfo">Traducido por Roberto Martínez</item>
+  <item name="TranslatorUrl"></item>
+  <item name="ContinueButton1">Continuar &gt;</item>
+
+<!-- 1. Select source image -->
+  <item name="SelectSourceImageLabel">Selección de la imagen de origen (1/5)</item>
+  <item name="BrowseButton1">Examinar...</item>
+  <item name="SelectSource">Selecciona la imagen de partida...</item>
+  <item name="SelectSourceFilter">Archivos de imágenes (*.jpg, *.png, *.gif, *.tif, *.bmp)|*.jpg;*.gif;*.png;*.tif;*.tiff;*.jpeg;*.bmp|Todos los archivos (*.*)|*.*</item>
+  <item name="BackButton1">&lt; Atrás</item>
+  <item name="ContinueButton2">Continuar &gt;</item>
+
+<!-- 2. Select paper size -->
+  <item name="PaperSizeLabel">Selección de tamaño de papel (2/5)</item>
+  <item name="StandardPaperRadio">Utilizar tamaño estándar de papel</item>
+  <item name="PaperSizeCombo">A4 (210x297 mm)|A3 (297x420 mm)|US Letter (216x279 mm)|US Legal (216x356 mm)</item>
+  <item name="PaperAlignCombo">Vertical|Horizontal</item>
+  <item name="CustomPaperRadio">Utilizar tamaño personalizado</item>
+  <item name="WidthLabel">Ancho</item>
+  <item name="HeightLabel">Alto</item>
+  <item name="BackButton2">&lt; Atrás</item>
+  <item name="ContinueButton3">Continuar &gt;</item>
+
+<!-- 3. Define output size -->
+  <item name="OutputSizeLabel">Tamaño de salida (3/5)</item>
+  <item name="SheetsLabel">hojas</item>
+  <item name="MeasureDimensionCombo">de ancho|de alto</item>
+  <item name="OutputImageSize">Tamaño de la imagen de salida:</item>
+  <item name="PaperConsumption">Consumo de papel:</item>
+  <item name="sheet">hoja</item>
+  <item name="sheets">hojas</item>
+  <item name="BackButton3">&lt; Atrás</item>
+  <item name="ContinueButton4">Continuar &gt;</item>
+
+<!-- 4. Set rasterbation options -->
+  <item name="SetOptionsLabel">Opciones de Rasterbator (4/5)</item>
+  <item name="CutoutCheckbox">Dibujar contorno del área impresa</item>
+  <item name="CutoutInfoLabel">Esta opción dibuja un rectángulo alrededor del área impresa en cada página. El borde impreso permite cortar los márgenes de una manera mucho más sencilla. Si no piensas cortar los márgenes, desactiva esta opción.</item>
+  <item name="DotSizeLabel">   Punto</item>
+  <item name="DotSizeInfoLabel">El tamaño del punto define el tamaño máximo de los puntos que se imprimen. El rango típico es entre 5 y 25 mm, pero puedes experimentar con otros tamaños.</item>
+  <item name="ColorModeLabel">Modo de color</item>
+  <item name="BlackRadio">Negro</item>
+  <item name="CustomColorRadio">Personalizado:</item>
+  <item name="SelectButton">Seleccionar...</item>
+  <item name="MultiColorRadio">Multicolor</item>
+  <item name="BackButton4">&lt; Atrás</item>
+  <item name="ContinueButton5">Continuar &gt;</item>
+  <item name="ConfirmOptions">Confirmar opciones</item>
+  <item name="SmallDotSizeWarning">Rasterbating using small dot sizes (less than 3 mm) consumes lots of memory and takes a long time. Do you want to continue?</item>
+  <item name="SmallDotSizeWarning">Utilizar tamaños de punto pequeños (menos de 3 mm) consume mucha memoria y tarda un tiempo considerable. Quieres continuar?</item>
+
+<!-- 5. Save rasterbation as -->
+  <item name="SaveAsLabel">Guardar resultado como (5/5)</item>
+  <item name="BrowseButton2">Examinar...</item>
+  <item name="SelectTargetFilter">Archivos PDF (*.pdf)|*.pdf</item>
+  <item name="BackButton5">&lt; Atrás</item>
+  <item name="RasterbateButton">Adelante!</item>
+
+<!-- Rasterbating! -->
+  <item name="PleaseWaitLabel">Dibujando, espera...</item>
+  <item name="EstimatedTimeRemainingLabel">Tiempo estimado para finalizar:</item>
+  <item name="hour">hora</item>
+  <item name="hours">horas</item>
+  <item name="minute">minuto</item>
+  <item name="minutes">minutos</item>
+  <item name="second">segundo</item>
+  <item name="seconds">segundos</item>
+  <item name="LowPriorityRasterbation">Trabajar en baja prioridad</item>
+  <item name="RasterbateBackgroundInfoLabel">Selecciona esta opción si quieres usar otros programas mientras se dibuja. La tarea tardará más, pero podrás usar otros programas simultáneamente.</item>
+
+<!-- Completed -->
+  <item name="CompletedLabel">Operación completada!</item>
+  <item name="PrintInfoLabel">Al imprimir la imagen en Adobe Reader, selecciona "Escalado de página: Ajustar al papel" en el panel de opciones. Si has elegido formato apaisado, selecciona también "Rotar automáticamente y centrar". Muchas impresoras no pueden imprimir en los márgenes del papel, y estos valores aseguran que las imágenes se imprimirán completamente.</item>
+  <item name="GalleryPlugLabel">Please take a photograph of your picture and submit it to the Rasterbation Gallery!</item>
+  <item name="GalleryPlugLabel">Haz una foto a tu imagen y envíala a la Galería de Rasterbator!</item>
+  <item name="OpenFileCheckbox">Abrir archivo generado</item>
+  <item name="CloseApplicationButton">Cerrar aplicación</item>
+</language>

@@ -1,0 +1,83 @@
+<?xml version="1.0" standalone="yes"?>
+<language englishname="Danish" nativename="Dansk" TwoLetterISOLanguageName="da">
+
+<!-- Welcome -->
+  <item name="WelcomeTitle">Velkommen til The Rasterbator</item>
+  <item name="WelcomeInfo">The Rasterbator opretter kæmpestore, rasterede fler-sides billeder ud fra ethvert billede. De rasterede billeder kan printes og samles til ekstremt seje plakater.</item>
+  <item name="SelectLanguageLabel">Vælg venligst sprog:</item>
+  <item name="TranslatorInfo">Oversat af Kim B. Hansen</item>
+  <item name="TranslatorUrl">http://spaces.msn.com/members/kerub/</item>
+  <item name="ContinueButton1">Fortsæt &gt;</item>
+
+<!-- 1. Select source image -->
+  <item name="SelectSourceImageLabel">Vælg kilde-billede (1/5)</item>
+  <item name="BrowseButton1">Gennemse...</item>
+  <item name="SelectSource">Vælg Rasterbation-kilde...</item>
+  <item name="SelectSourceFilter">Billedfiler (*.jpg, *.png, *.gif, *.tif, *.bmp)|*.jpg;*.gif;*.png;*.tif;*.tiff;*.jpeg;*.bmp|Alle filer (*.*)|*.*</item>
+  <item name="BackButton1">&lt; Tilbage</item>
+  <item name="ContinueButton2">Fortsæt &gt;</item>
+
+<!-- 2. Select paper size -->
+  <item name="PaperSizeLabel">Vælg papirstørrelse (2/5)</item>
+  <item name="StandardPaperRadio">Brug standard-papirstørrelse</item>
+  <item name="PaperSizeCombo">A4 (210x297 mm)|A3 (297x420 mm)|US Letter (216x279 mm)|US Legal (216x356 mm)</item>
+  <item name="PaperAlignCombo">stående|liggende</item>
+  <item name="CustomPaperRadio">Brug speciel papirstørrelse</item>
+  <item name="WidthLabel">Bredde</item>
+  <item name="HeightLabel">Højde</item>
+  <item name="BackButton2">&lt; Tilbage</item>
+  <item name="ContinueButton3">Fortsæt &gt;</item>
+
+<!-- 3. Define output size -->
+  <item name="OutputSizeLabel">Definer størrelse (3/5)</item>
+  <item name="SheetsLabel">ark</item>
+  <item name="MeasureDimensionCombo">bredt|højt</item>
+  <item name="OutputImageSize">Størrelse på billede:</item>
+  <item name="PaperConsumption">Papirforbrug:</item>
+  <item name="sheet">ark</item>
+  <item name="sheets">ark</item>
+  <item name="BackButton3">&lt; Tilbage</item>
+  <item name="ContinueButton4">Fortsæt &gt;</item>
+
+<!-- 4. Set rasterbation options -->
+  <item name="SetOptionsLabel">Indstil rasterbations-funktioner (4/5)</item>
+  <item name="CutoutCheckbox">Tegn udklipslinie omkring det rasterberede område</item>
+  <item name="CutoutInfoLabel">Denne funktion tegner et svagt rektangel omkring hver sides rasterberede billede. Linien gør det mærkbart lettere at klippe de tomme margener væk. Hvis du ikke vil klippe margenerne væk, skal du fravælge funktionen.</item>
+  <item name="DotSizeLabel">Prikbredde</item>
+  <item name="DotSizeInfoLabel">Prikstørrelsen definerer maksimumstørrelsen af prikkerne i rasterbationen. Det typiske område er 5-25 mm, men andre størrelser kan også bruges, hvis du vil lege med det.</item>
+  <item name="ColorModeLabel">Farvevalg</item>
+  <item name="BlackRadio">Sort</item>
+  <item name="CustomColorRadio">Speciel farve:</item>
+  <item name="SelectButton">Vælg...</item>
+  <item name="MultiColorRadio">Mange farver</item>
+  <item name="BackButton4">&lt; Tilbage</item>
+  <item name="ContinueButton5">Fortsæt &gt;</item>
+  <item name="ConfirmOptions">Bekræft valg</item>
+  <item name="SmallDotSizeWarning">Rasterbation ved små prikstørrelser (mindre end 3 mm) bruger meget hukommelse og tager lang tid. Vil du fortsætte?</item>
+
+<!-- 5. Save rasterbation as -->
+  <item name="SaveAsLabel">Gem rasterbationen som (5/5)</item>
+  <item name="BrowseButton2">Gennemse...</item>
+  <item name="SelectTargetFilter">Pdf-filer (*.pdf)|*.pdf</item>
+  <item name="BackButton5">&lt; Tilbage</item>
+  <item name="RasterbateButton">Rasterber!</item>
+
+<!-- Rasterbating! -->
+  <item name="PleaseWaitLabel">Rasterberer, vent venligst...</item>
+  <item name="EstimatedTimeRemainingLabel">Forventet tid tilbage:</item>
+  <item name="hour">time</item>
+  <item name="hours">timer</item>
+  <item name="minute">minut</item>
+  <item name="minutes">minutter</item>
+  <item name="second">sekund</item>
+  <item name="seconds">sekunder</item>
+  <item name="LowPriorityRasterbation">Rasterber med lav prioritet</item>
+  <item name="RasterbateBackgroundInfoLabel">Kryds af her hvis du vil bruge andre programmer under rasterbationen. Rasterbationen tager længere tid, men andre programmer svarer hurtigere.</item>
+
+<!-- Completed -->
+  <item name="CompletedLabel">Rasterbation færdig!</item>
+  <item name="PrintInfoLabel">Under udskrift af billedet i Adobe Reader, vælges Sideskalering: Tilpas til printermargener i vinduet Udskriv. Vælges vandret papirjustering, skal Automatisk rotering og centrering vælges. De fleste printere kan ikke printe helt ud til papirets kanter - disse indstillinger sikrer at alle siderne udskrives korrekt.</item>
+  <item name="GalleryPlugLabel">Tag venligst et fotografi af dit billede, og indsend det til Rasterbation-galleriet!</item>
+  <item name="OpenFileCheckbox">åbn rasteret fil</item>
+  <item name="CloseApplicationButton">Luk programmet</item>
+</language>

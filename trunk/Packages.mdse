@@ -1,0 +1,46 @@
+<CombineEntry name="Packages" fileversion="2.0" ctype="PackagingProject">
+  <Packages>
+    <Package name="MonoDevelop Project Model Sources">
+      <Builder rootEntry="MonoRasterbator.mds" targetFile="MonoRasterbator-mds.tar.gz" format="MonoDevelop.Projects.MonoDevelopFileFormat" ctype="SourcesZipPackageBuilder">
+        <ChildEntries>
+          <Entry>MonoRasterbator/MonoRasterbator.mdp</Entry>
+        </ChildEntries>
+      </Builder>
+    </Package>
+    <Package name="SharpDevelop 1.0 Project Model Sources">
+      <Builder rootEntry="MonoRasterbator.mds" targetFile="MonoRasterbator-cmbx.tar.gz" format="MonoDevelop.Projects.SharpDevelopFileFormat" ctype="SourcesZipPackageBuilder">
+        <ChildEntries>
+          <Entry>MonoRasterbator/MonoRasterbator.mdp</Entry>
+        </ChildEntries>
+      </Builder>
+    </Package>
+    <Package name="Visual Studio .NET 2005 Sources">
+      <Builder rootEntry="MonoRasterbator.mds" targetFile="MonoRasterbator-sln.tar.gz" format="MonoDevelop.Prj2Make.MSBuildFileFormat" ctype="SourcesZipPackageBuilder">
+        <ChildEntries>
+          <Entry>MonoRasterbator/MonoRasterbator.mdp</Entry>
+        </ChildEntries>
+      </Builder>
+    </Package>
+    <Package name="Linux Binaries">
+      <Builder rootEntry="MonoRasterbator.mds" targetFile="MonoRasterbator-linux.tar.gz" platform="Linux" ctype="BinariesZipPackageBuilder">
+        <ChildEntries>
+          <Entry>MonoRasterbator/MonoRasterbator.mdp</Entry>
+        </ChildEntries>
+      </Builder>
+    </Package>
+    <Package name="Windows Binaries">
+      <Builder rootEntry="MonoRasterbator.mds" targetFile="MonoRasterbator-windows.tar.gz" platform="Windows" ctype="BinariesZipPackageBuilder">
+        <ChildEntries>
+          <Entry>MonoRasterbator/MonoRasterbator.mdp</Entry>
+        </ChildEntries>
+      </Builder>
+    </Package>
+    <Package name="Tarball">
+      <Builder rootEntry="MonoRasterbator.mds" TargetDirectory="/home/tobias/Desktop/Mono Rasterbator/MonoRasterbator/MonoRasterbator" DefaultConfiguration="Debug" ctype="TarballDeployTarget">
+        <ChildEntries>
+          <Entry>MonoRasterbator/MonoRasterbator.mdp</Entry>
+        </ChildEntries>
+      </Builder>
+    </Package>
+  </Packages>
+</CombineEntry>
