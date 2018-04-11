@@ -1,6 +1,7 @@
 [Desktop Entry]
 Encoding=UTF-8
 Type=Application
-Name=MonoRasterbator
-Exec=monorasterbator
+Icon=/usr/local/lib/rasterbator.ico
+Name=Rasterbator-ng
+Exec=/usr/local/bin/rasterbator-ng
 Terminal=false
