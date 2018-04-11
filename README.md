@@ -213,6 +213,4 @@ Rasterbator on the web
 ----------------------
 
 -   [Rasterbation-NG Homepage](https://github.com/supertobi/rasterbator-ng)
--   [Rasterbator homepage](http://arje.net/rasterbator)
 -   [Rasterbator on the web](http://homokaasu.org/rasterbator/)
--   [Rasterbation gallery](http://homokaasu.org/rasterbator/gallery.gas)
