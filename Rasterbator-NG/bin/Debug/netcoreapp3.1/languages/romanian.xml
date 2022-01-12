@@ -1,0 +1,82 @@
+<?xml version="1.0" standalone="yes"?>
+<language englishname="Romanian" nativename="Româna" TwoLetterISOLanguageName="ro">
+
+<!-- Bine ati venit! -->
+  <item name="WelcomeTitle">Bine ati venit la "The Rasterbator"</item>
+  <item name="WelcomeInfo">"The Rasterbator" creaza imagini imense, pe mai multe pagini, dupa orice fel de imagine. Imaginile obtinute se pot printa si asambla în super postere.</item>
+  <item name="SelectLanguageLabel">Va rugam selectati o limba:</item>
+  <item name="TranslatorInfo">Tradus de Vlad Dumitreanu d_vlad@zappmobile.ro</item>
+  <item name="TranslatorUrl"></item>
+  <item name="ContinueButton1">Continuare &gt;</item>
+
+<!-- 1. Selectati imaginea sursa -->
+  <item name="SelectSourceImageLabel">Alegeti imaginea sursa (pasul 1 din 5)</item>
+  <item name="BrowseButton1">Cautare...</item>
+  <item name="SelectSource">Selectati sursa...</item>
+  <item name="SelectSourceFilter">Fisierele imagine (*.jpg, *.png, *.gif, *.tif, *.bmp)|*.jpg;*.gif;*.png;*.tif;*.tiff;*.jpeg;*.bmp|Toate fisierele (*.*)|*.*</item>
+  <item name="BackButton1">&lt; Înapoi</item>
+  <item name="ContinueButton2">Continuare &gt;</item>
+
+<!-- 2. Selectati dimensiunea colii -->
+  <item name="PaperSizeLabel">Selectati dimensiunea colii (pasul 2 din 5)</item>
+  <item name="StandardPaperRadio">Dimensiune standard</item>
+  <item name="PaperSizeCombo">A4 (210x297 mm)|A3 (297x420 mm)|US Letter (216x279 mm)|US Legal (216x356 mm)</item>
+  <item name="PaperAlignCombo">în picioare|culcat</item>
+  <item name="CustomPaperRadio">Dimensiune personalizata</item>
+  <item name="WidthLabel">Latime</item>
+  <item name="HeightLabel">Înaltime</item>
+  <item name="BackButton2">&lt; Înapoi</item>
+  <item name="ContinueButton3">Continuare &gt;</item>
+
+<!-- 3. Stabiliti dimensiunea finala -->
+  <item name="OutputSizeLabel">Stabiliti dimensiunea finala (pasul 3 din 5)</item>
+  <item name="SheetsLabel">coli pe</item>
+  <item name="MeasureDimensionCombo">latime|înaltime</item>
+  <item name="OutputImageSize">Dimensiunea finala a imaginii:</item>
+  <item name="PaperConsumption">Numar total de coli:</item>
+  <item name="sheet">coala</item>
+  <item name="sheets">coli</item>
+  <item name="BackButton3">&lt; Înapoi</item>
+  <item name="ContinueButton4">Continuare &gt;</item>
+
+<!-- 4. Optiuni -->
+  <item name="SetOptionsLabel">Optiuni (pasul 4 din 5)</item>
+  <item name="CutoutCheckbox">Desenare linie de contur</item>
+  <item name="CutoutInfoLabel">Cu aceasta optiune va fi desenata o linie subtire în jurul desenului de pe fiecare coala. Aceasta linie va face mult mai usoara operatia de decupare a marginilor albe ale colii. Daca nu intentionati sa decupati marginile albe deselectati aceasta optiune.</item>
+  <item name="DotSizeLabel">Dim. punct</item>
+  <item name="DotSizeInfoLabel">Aceasta setare defineste dimensiunea maxima a punctului. Dimensiunea obisnuita folosita este între 5-25 mm, dar la fel de bine pot fi folosite si celelalte dimensiuni.</item>
+  <item name="ColorModeLabel">Culoare</item>
+  <item name="BlackRadio">Negru</item>
+  <item name="CustomColorRadio">Culoare personalizata:</item>
+  <item name="SelectButton">Alege...</item>
+  <item name="MultiColorRadio">Multicolor</item>
+  <item name="BackButton4">&lt; Înapoi</item>
+  <item name="ContinueButton5">Continuare &gt;</item>
+  <item name="ConfirmOptions">Confirmarea optiunilor</item>
+  <item name="SmallDotSizeWarning">Folosirea punctelor cu dimensiuni foarte mici (mai mici de 3 mm) consuma foarte multa memorie si dureaza foarte mult. Sunteti sigur ca doriti sa continuati?</item>
+
+<!-- 5. Salvare ca -->
+  <item name="SaveAsLabel">Salvati imaginea rezultata (pasul 5 din 5)</item>
+  <item name="BrowseButton2">Cautati unde...</item>
+  <item name="SelectTargetFilter">Fisier pdf (*.pdf)|*.pdf</item>
+  <item name="BackButton5">&lt; Înapoi</item>
+  <item name="RasterbateButton">Terminare!</item>
+
+<!-- Terminare! -->
+  <item name="PleaseWaitLabel">Procesare în curs, va rog asteptati...</item>
+  <item name="EstimatedTimeRemainingLabel">Timp ramas aproximativ:</item>
+  <item name="hour">ora</item>
+  <item name="hours">ore</item>
+  <item name="minute">minut</item>
+  <item name="minutes">minute</item>
+  <item name="second">secunda</item>
+  <item name="seconds">secunde</item>
+  <item name="LowPriorityRasterbation">Procesare cu prioritate scazuta</item>
+  <item name="RasterbateBackgroundInfoLabel">Selectati aceasta daca doriti ca în timpul procesarii sa utilizati si alte aplicatii. Procesarea va dura mai mult dar celelalte aplicatii vor rula mai usor.</item>
+
+<!-- Procesare completa -->
+  <item name="CompletedLabel">Procesare completa!</item>
+  <item name="PrintInfoLabel">În Adobe Reader, când printati imaginea, alegeti "Page scaling: Fit to paper". Daca ati ales aranjarea orizontala a colii, asigurati-va ca ati selectat "Auto-Rotate" si "Center". Majoritatea imprimantelor nu printeaza pâna la marginile colii - aceste setari va asigura printarea completa a tuturor imaginilor. Va rugam introduceti posterul în Rasterbation Gallery!</item>
+  <item name="OpenFileCheckbox">Deschide imaginea creata</item>
+  <item name="CloseApplicationButton">Terminare!</item>
+</language>

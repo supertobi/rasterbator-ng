@@ -1,0 +1,83 @@
+<?xml version="1.0" standalone="yes"?>
+<language englishname="French" nativename="Francais" TwoLetterISOLanguageName="fr">
+
+  <!-- Welcome -->
+  <item name="WelcomeTitle">Bienvenue dans The Rasterbator</item>
+  <item name="WelcomeInfo">The Rasterbator cree d'immense, trame, des images multi-pages a partir d'une image quelconque. L'image tramee peut etre imprimee et assemblee en un poster totalement cool.</item>
+  <item name="SelectLanguageLabel">Merci de choisir une langue:</item>
+  <item name="TranslatorInfo"></item>
+  <item name="TranslatorUrl"></item>
+  <item name="ContinueButton1">Continuer &gt;</item>
+
+  <!-- 1. Select source image -->
+  <item name="SelectSourceImageLabel">Selectionner l'image source (1/5)</item>
+  <item name="BrowseButton1">Parcourir...</item>
+  <item name="SelectSource">Selectionner la source que The Rasterbation va tramer...</item>
+  <item name="SelectSourceFilter">Fichier Image (*.jpg, *.png, *.gif, *.tif, *.bmp)|*.jpg;*.gif;*.png;*.tif;*.tiff;*.jpeg;*.bmp|Tous les fichiers (*.*)|*.*</item>
+  <item name="BackButton1">&lt; Retour</item>
+  <item name="ContinueButton2">Continuer &gt;</item>
+
+  <!-- 2. Select paper size -->
+  <item name="PaperSizeLabel">Dimension du papier (2/5)</item>
+  <item name="StandardPaperRadio">Taille de papier standard</item>
+  <item name="PaperSizeCombo">A4 (210x297 mm)|A3 (297x420 mm)|US Letter (216x279 mm)|US Legal (216x356 mm)</item>
+  <item name="PaperAlignCombo">portrait|paysage</item>
+  <item name="CustomPaperRadio">Dimension de papier personnelle</item>
+  <item name="WidthLabel">Largeur</item>
+  <item name="HeightLabel">Hauteur</item>
+  <item name="BackButton2">&lt; Retour</item>
+  <item name="ContinueButton3">Continuer &gt;</item>
+
+  <!-- 3. Define output size -->
+  <item name="OutputSizeLabel">Definir la taille de sortie (3/5)</item>
+  <item name="SheetsLabel">feuilles</item>
+  <item name="MeasureDimensionCombo">largeur|hauteur</item>
+  <item name="OutputImageSize">Taille de l'image finale:</item>
+  <item name="PaperConsumption">Consommation de papier:</item>
+  <item name="sheet">feuille</item>
+  <item name="sheets">feuilles</item>
+  <item name="BackButton3">&lt; Retour</item>
+  <item name="ContinueButton4">Continuer &gt;</item>
+
+  <!-- 4. Set rasterbation options -->
+  <item name="SetOptionsLabel">Definir les options de Rasterbator (4/5)</item>
+  <item name="CutoutCheckbox">Dessiner les lignes de decoupe autour de la zone tramee</item>
+  <item name="CutoutInfoLabel">Cette option dessinera des bordures clair autour du tramage sur chaque page. Les bordure rendront bien plus facile les decoupes de marges. Si vous prevoyez de ne pas couper les marges, vous devaliderez cette option.</item>
+  <item name="DotSizeLabel">Taille des points</item>
+  <item name="DotSizeInfoLabel">La taille des points definit la taille maximale des points de l'image tramee. Classiquement, la taille varie entre 5 et 25 mm, mais d'autre taille peuvent egelement etre utilisees, si vous souhaitez jouer avec ce parametre.</item>
+  <item name="ColorModeLabel">Mode couleur</item>
+  <item name="BlackRadio">Noir</item>
+  <item name="CustomColorRadio">Couleur personnalisee:</item>
+  <item name="SelectButton">Selectionner...</item>
+  <item name="MultiColorRadio">Multi-couleur</item>
+  <item name="BackButton4">&lt; Retour</item>
+  <item name="ContinueButton5">Continuer &gt;</item>
+  <item name="ConfirmOptions">Confirmer les choix</item>
+  <item name="SmallDotSizeWarning">Les tramages utilisant petits points (taille inferieure a 3 mm) utilisent beaucoup de memoire, de ressource et prennent beaucoup de temps. Voulez vous continuer ?</item>
+
+  <!-- 5. Save rasterbation as -->
+  <item name="SaveAsLabel">Sauvegarder le tramage sous (5/5)</item>
+  <item name="BrowseButton2">Parcourir...</item>
+  <item name="SelectTargetFilter">Fichiers Pdf (*.pdf)|*.pdf</item>
+  <item name="BackButton5">&lt; Retour</item>
+  <item name="RasterbateButton">RasterBate !</item>
+
+  <!-- Rasterbating! -->
+  <item name="PleaseWaitLabel">Realisation du tramage, merci de patienter...</item>
+  <item name="EstimatedTimeRemainingLabel">Temps restant estime:</item>
+  <item name="hour">heure</item>
+  <item name="hours">heures</item>
+  <item name="minute">minute</item>
+  <item name="minutes">minutes</item>
+  <item name="second">seconde</item>
+  <item name="seconds">secondes</item>
+  <item name="LowPriorityRasterbation">Le tramage utilise une priorite basse</item>
+  <item name="RasterbateBackgroundInfoLabel">Cliquer ici si vous souhaiter utiliser d'autre logiciels pendant le processus de tramage. Le tramage prendra plus de temps, mais les autres applications repondrons mieux.</item>
+
+  <!-- Completed -->
+  <item name="CompletedLabel">Rasterbation | Tramage terminee; !</item>
+  <item name="PrintInfoLabel">Quand vous imprimerez l'image dans l'Adobe Acrobat Reader, choisissez dans 'Copies et ajustements': 'Ajuster au papier'. Si vous optez pour un papier horizontal, prenez egalement garde a selectionner 'Rotation auto. et centrage des pages'. La majorite des imprimantes ne peuvent pas imprimer sur les bords du papier - ces parametres permettent de s'assurer que l'image sera completement imprimee.</item>
+  <item name="GalleryPlugLabel">Merci de prendre une photo de votre image et soumettez la dans la "Rasterbation Gallery"!</item>
+  <item name="OpenFileCheckbox">Ouvrir le fichier Raserbater</item>
+  <item name="CloseApplicationButton">Fermer l'application</item>
+</language>

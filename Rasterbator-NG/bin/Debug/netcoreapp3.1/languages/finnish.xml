@@ -1,0 +1,82 @@
+<?xml version="1.0" standalone="yes"?>
+<language englishname="Finnish" nativename="Suomi" TwoLetterISOLanguageName="fi">
+<!-- Welcome -->
+  <item name="WelcomeTitle">Tervetuloa Rasterbaattoriin</item>
+  <item name="WelcomeInfo">Rasterbaattori luo valtavia, rasterisoituja, monisivuisia kuvia mistä tahansa kuvatiedostosta. Rasteroidut kuvat voi tulostaa ja kasata käsittämättömän hienoiksi julisteiksi.</item>
+  <item name="SelectLanguageLabel">Valitse kieli:</item>
+  <item name="TranslatorInfo"></item>
+  <item name="TranslatorUrl"></item>
+  <item name="ContinueButton1">Jatka &gt;</item>
+
+<!-- 1. Select source image -->
+  <item name="SelectSourceImageLabel">Valitse kuva (1/5)</item>
+  <item name="BrowseButton1">Selaa...</item>
+  <item name="SelectSource">Valitse rasterboitava kuva...</item>
+  <item name="SelectSourceFilter">Kuvatiedostot (*.jpg, *.png, *.gif, *.tif, *.bmp)|*.jpg;*.gif;*.png;*.tif;*.tiff;*.jpeg;*.bmp|Kaikki tiedostot (*.*)|*.*</item>
+  <item name="BackButton1">&lt; Takaisin</item>
+  <item name="ContinueButton2">Jatka &gt;</item>
+
+<!-- 2. Select paper size -->
+  <item name="PaperSizeLabel">Valitse paperin koko (2/5)</item>
+  <item name="StandardPaperRadio">Standardikokoinen paperi</item>
+  <item name="PaperSizeCombo">A4 (210x297 mm)|A3 (297x420 mm)|US Letter (216x279 mm)|US Legal (216x356 mm)</item>
+  <item name="PaperAlignCombo">pystysuora|vaakasuora</item>
+  <item name="CustomPaperRadio">Muu paperikoko</item>
+  <item name="WidthLabel">Leveys</item>
+  <item name="HeightLabel">Korkeus</item>
+  <item name="BackButton2">&lt; Takaisin</item>
+  <item name="ContinueButton3">Jatka &gt;</item>
+
+<!-- 3. Define output size -->
+  <item name="OutputSizeLabel">Määritä rasterboinnin koko (3/5)</item>
+  <item name="SheetsLabel">arkkia</item>
+  <item name="MeasureDimensionCombo">leveä|korkea</item>
+  <item name="OutputImageSize">Valmiin kuvan koko:</item>
+  <item name="PaperConsumption">Paperia kuluu:</item>
+  <item name="sheet">arkki</item>
+  <item name="sheets">arkkia</item>
+  <item name="BackButton3">&lt; Takaisin</item>
+  <item name="ContinueButton4">Jatka &gt;</item>
+
+<!-- 4. Set rasterbation options -->
+  <item name="SetOptionsLabel">Rasterbointiasetukset (4/5)</item>
+  <item name="CutoutCheckbox">Piirrä apuviiva leikkausta varten</item>
+  <item name="CutoutInfoLabel">Tämä valinta piirtää jokaiselle sivulle rasterboidun kuvan ympärille himmeän reunan, joka helpottaa tyhjien reunusten leikkaamista. Jos et ajatellut leikata reunoja, älä käytä tätä.</item>
+  <item name="DotSizeLabel">Pistekoko</item>
+  <item name="DotSizeInfoLabel">Pistekoko määrittää maksimikoon rasterbaation pisteille. Yleensä pisteet ovat 5-25 mm, mutta muitakin kokoja voi kokeilla.</item>
+  <item name="ColorModeLabel">Värimoodi</item>
+  <item name="BlackRadio">Musta</item>
+  <item name="CustomColorRadio">Väri:</item>
+  <item name="SelectButton">Valitse...</item>
+  <item name="MultiColorRadio">Monivärinen</item>
+  <item name="BackButton4">&lt; Takaisin</item>
+  <item name="ContinueButton5">Jatka &gt;</item>
+  <item name="ConfirmOptions">Varmista asetukset</item>
+  <item name="SmallDotSizeWarning">Rasterbointi pienellä pistekoolla (alle 3 mm) kuluttaa paljon muistia ja kestää kauan. Haluatko jatkaa?</item>
+
+<!-- 5. Save rasterbation as -->
+  <item name="SaveAsLabel">Tallenna rasterbaatio nimellä (5/5)</item>
+  <item name="BrowseButton2">Selaa...</item>
+  <item name="SelectTargetFilter">Pdf-tiedostot (*.pdf)|*.pdf</item>
+  <item name="BackButton5">&lt; Takaisin</item>
+  <item name="RasterbateButton">Rasterboi!</item>
+
+<!-- Rasterbating! -->
+  <item name="PleaseWaitLabel">Rasterboin, odota...</item>
+  <item name="EstimatedTimeRemainingLabel">Aikaa arviolta jäljellä:</item>
+  <item name="hour">tunti</item>
+  <item name="hours">tuntia</item>
+  <item name="minute">minuutti</item>
+  <item name="minutes">minuuttia</item>
+  <item name="second">sekunti</item>
+  <item name="seconds">sekuntia</item>
+  <item name="LowPriorityRasterbation">Rasterboi alhaisella prioriteetilla</item>
+  <item name="RasterbateBackgroundInfoLabel">Ruksaa tämä, jos haluat käyttää samanaikaisesti muita ohjelmia. Rasterbointi kestää kauemmin, mutta muut ohjelmat toimivat nopeammin.</item>
+
+<!-- Completed -->
+  <item name="CompletedLabel">Rasterbointi valmis!</item>
+  <item name="PrintInfoLabel">Tulostettaessa kuvaa Adobe Reader -ohjelmasta, valitse "Page scaling: Fit to paper" asetusikkunasta. Jos valitsit vaakasuuntaisen paperin, varmista, että "Auto-Rotate and Center" on myös valittu. Useimmat tulostimet eivät tulosta aivan paperin reunoille - nämä asetukset varmistavat, että kuvat tulevat kokonaan tulostetuksi.</item>
+  <item name="GalleryPlugLabel">Ota valokuva valmiista julisteesta ja lähetä se rasterbaatiogalleriaan!</item>
+  <item name="OpenFileCheckbox">Avaa rasterboitu kuva</item>
+  <item name="CloseApplicationButton">Sulje ohjelma</item>
+</language>

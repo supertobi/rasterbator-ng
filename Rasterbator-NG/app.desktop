@@ -1,7 +1,0 @@
-[Desktop Entry]
-Encoding=UTF-8
-Type=Application
-Icon=/usr/local/lib/rasterbator.ico
-Name=Rasterbator-ng
-Exec=/usr/local/bin/rasterbator-ng
-Terminal=false

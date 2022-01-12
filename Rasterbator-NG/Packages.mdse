@@ -1,7 +1,0 @@
-<CombineEntry name="Packages" fileversion="2.0" ctype="PackagingProject">
-  <Packages>
-    <Package name="Windows Binaries">
-      <Builder rootEntry="MonoRasterbator.mdp" targetFile="MonoRasterbator.zip" platform="Windows" ctype="BinariesZipPackageBuilder" />
-    </Package>
-  </Packages>
-</CombineEntry>

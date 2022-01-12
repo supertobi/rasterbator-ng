@@ -1,0 +1,83 @@
+<?xml version="1.0" standalone="yes"?>
+<language englishname="Czech" nativename="Ceština" TwoLetterISOLanguageName="cs">
+
+<!-- Vítejte! -->
+  <item name="WelcomeTitle">Vítejte v Rasterbatoru!</item>
+  <item name="WelcomeInfo">Rasterbator vytvárí z jakéhokoliv obrázku velké mnohostránkové rasterizované obrazy. Po vytisknutí a slepení mohou tyto obrazy vypadat skutecne skvele.</item>
+  <item name="SelectLanguageLabel">Prosím, vyberte jazyk programu:</item>
+  <item name="TranslatorInfo">Preklad: Michal "Timmykid" Zlatkovský (timmykid@1a8.net)</item>
+  <item name="TranslatorUrl"></item>
+  <item name="ContinueButton1">Další &gt;</item>
+
+<!-- 1. Výber zdrojového obrázku -->
+  <item name="SelectSourceImageLabel">Krok 1/5: Vyberte zdrojový obrázek.</item>
+  <item name="BrowseButton1">Procházet...</item>
+  <item name="SelectSource">Vyberte zdroj pro Rasterbator...</item>
+  <item name="SelectSourceFilter">Všechny obrázky (*.jpg, *.png, *.gif, *.tif, *.bmp)|*.jpg;*.gif;*.png;*.tif;*.tiff;*.jpeg;*.bmp|Všechny soubory (*.*)|*.*</item>
+  <item name="BackButton1">&lt; Zpet</item>
+  <item name="ContinueButton2">Další &gt;</item>
+
+<!-- 2. Výber velikosti papíru -->
+  <item name="PaperSizeLabel">Krok 2/5: Vyberte velikost papíru.</item>
+  <item name="StandardPaperRadio">Standardní rozmery</item>
+  <item name="PaperSizeCombo">A4 (210x297 mm)|A3 (297x420 mm)|US Letter (216x279 mm)|US Legal (216x356 mm)</item>
+  <item name="PaperAlignCombo">na výšku|na šírku</item>
+  <item name="CustomPaperRadio">Vlastní rozmery</item>
+  <item name="WidthLabel">Šírka</item>
+  <item name="HeightLabel">Výška</item>
+  <item name="BackButton2">&lt; Zpet</item>
+  <item name="ContinueButton3">Další &gt;</item>
+
+<!-- 3. Nastavení velikosti výstupu -->
+  <item name="OutputSizeLabel">Krok 3/5: Nastavte velikost výstupu</item>
+  <item name="SheetsLabel">listu na</item>
+  <item name="MeasureDimensionCombo">šírku|výšku</item>
+  <item name="OutputImageSize">Konecné rozmery obrázku:</item>
+  <item name="PaperConsumption">Pocet stran:</item>
+  <item name="sheet">strana</item>
+  <item name="sheets">strany</item>
+  <item name="BackButton3">&lt; Zpet</item>
+  <item name="ContinueButton4">Další &gt;</item>
+
+<!-- 4. Nastavení -->
+  <item name="SetOptionsLabel">Krok 4/5: Nastavení</item>
+  <item name="CutoutCheckbox">Obrysy pro stríhání</item>
+  <item name="CutoutInfoLabel">Tato možnost kolem každé stránky vytvorené Rasterbatorem vykreslí tenkou cáru, díky které je o mnoho snažší odstrihnout okraje stran. V prípade, že okraje odstríhávat nechcete, ponechte tuto možnost nevybranou.</item>
+  <item name="DotSizeLabel">Velikost</item>
+  <item name="DotSizeInfoLabel">Tato možnost definuje velikost bodu, ze kterých je obrázek složen. Obvykle to je 5 až 25 mm, ale k experimentování je možno použít i jiné hodnoty.</item>
+  <item name="ColorModeLabel">Barva bodu</item>
+  <item name="BlackRadio">Cerná</item>
+  <item name="CustomColorRadio">Vlastní barva:</item>
+  <item name="SelectButton">Vybrat...</item>
+  <item name="MultiColorRadio">Vícebarevné</item>
+  <item name="BackButton4">&lt; Zpet</item>
+  <item name="ContinueButton5">Další &gt;</item>
+  <item name="ConfirmOptions">Malá velikost bodu</item>
+  <item name="SmallDotSizeWarning">V prípade nastavení malé velikosti bodu (méne než 3 mm) muže proces zabírat velkou cást pameti a trvat delší dobu. Opravdu chcete pokracovat?</item>
+
+<!-- 5. Uložení -->
+  <item name="SaveAsLabel">Krok 5/5: Uložit výsledek jako:</item>
+  <item name="BrowseButton2">Procházet...</item>
+  <item name="SelectTargetFilter">Pdf soubory (*.pdf)|*.pdf</item>
+  <item name="BackButton5">&lt; Zpet</item>
+  <item name="RasterbateButton">Provést!</item>
+
+<!-- Provést! -->
+  <item name="PleaseWaitLabel">Rasterbator pracuje, prosím cekejte...</item>
+  <item name="EstimatedTimeRemainingLabel">Zbývá:</item>
+  <item name="hour">hodina</item>
+  <item name="hours">hodiny</item>
+  <item name="minute">minuta</item>
+  <item name="minutes">minut</item>
+  <item name="second">sekunda</item>
+  <item name="seconds">sekund</item>
+  <item name="LowPriorityRasterbation">Nízká priorita procesu</item>
+  <item name="RasterbateBackgroundInfoLabel">V prípade, že chcete behem procesu používat i jiné programy, vyberte tuto možnost. Zpracování bude probíhat pomaleji, ale ostatní programy budou rychlejší.</item>
+
+<!-- Hotovo -->
+  <item name="CompletedLabel">Zpracování je u konce!</item>
+  <item name="PrintInfoLabel">Pokud butede pomocí Adobe Readeru obrázek tisknout, pri tisku vyberte možnost "Page Scaling: Fit to paper" Pokud jste tiskli na šírku, nezapomente také vybrat "Auto-Rotate" a "Center".</item>
+  <item name="GalleryPlugLabel">Pokud obrázek vytisknete, vyfotte ho a odešlete do naši galerie Rasterbatoru!</item>
+  <item name="OpenFileCheckbox">Otevrít vytvorený obrázek</item>
+  <item name="CloseApplicationButton">Konec</item>
+</language>

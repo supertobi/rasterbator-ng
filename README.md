@@ -7,13 +7,13 @@ If it doesn't work...
 Please ensure the following:
 
 -   You have extracted **entire** contents of the zip file
--   [.NET Framework 1.1](javascript:;) or [Mono](javascript:;) is
+-   [.NET Core 3.1](javascript:;) or [Mono](javascript:;) is
     installed to your computer
 
 Introduction
 ------------
 
-To see what's new in version 1.0, see the changelog.
+To see what's new in version 1.1, see the changelog.
 
 Rasterbator-NG is an application which creates rasterized versions of
 images. The rasterized images can be printed and assembled into enormous
@@ -37,12 +37,12 @@ Download
 The zip file includes the application, its source code and MonoDevelop
 project files. The program is licensed under the [GPL](javascript:;).
 
-The application requires [.NET Framework 1.1](javascript:;).To print the
+The application requires [.NET Core 3.1](javascript:;).To print the
 posters, you need a pdf reader such as [Adobe Reader](javascript:;). The
-application might also work with .NET Framework 1.0 (comes with Windows
-XP) and [Mono](javascript:;) (available for many platforms, such as
-Linux or Mac), but the compatibility has not been tested. If you manage
-to run it on Linux or Mac, please tell me!
+application might also work with .NET Core 3.0 and [Mono](javascript:;) 
+(available for many platforms, such as Linux or Mac), but the 
+compatibility has not been tested. If you manage to run it on Mac, 
+please tell me!
 
 Rasterbator-NG uses [iTextSharp](javascript:;) and
 [SharpZipLib](javascript:;) libraries. These are included in the file.
@@ -165,6 +165,13 @@ the file is valid xml and encoded using UTF-8.
 
 Change log
 ----------
+### 12.1.2022 - version 1.1 released
+
+-   Fixed bug opening the PDF file on Windows
+-   Added header image
+-   Ported to .Net Core 3.1
+-   Code cleanup
+-   New solution file for VS2019
 
 ### 6.7.2008 - version 1.0 released
 

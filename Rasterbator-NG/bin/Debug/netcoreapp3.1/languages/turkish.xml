@@ -1,0 +1,83 @@
+<?xml version="1.0" standalone="yes"?>
+<language englishname="Turkish" nativename="Türkçe" TwoLetterISOLanguageName="tr">
+
+<!-- Welcome -->
+  <item name="WelcomeTitle">Rasterbator'e hoş geldiniz</item>
+  <item name="WelcomeInfo">Rasterbator her hangi bir görüntü dosyasından dev boyutlarda, taranmış, çok sayfalı posterler yaratır. Taranan görüntüler yazıcılarda basılarak poster haline getirilir.</item>
+  <item name="SelectLanguageLabel">Lütfen dil seçim:</item>
+  <item name="TranslatorInfo">Türkçe tercüme : Metin Selçuk</item>
+  <item name="TranslatorUrl">http://mselcuk.com</item>
+  <item name="ContinueButton1">Devam &gt;</item>
+
+<!-- 1. Select source image -->
+  <item name="SelectSourceImageLabel">Kaynak görüntüyü seçin lütfen (1/5)</item>
+  <item name="BrowseButton1">Göz at...</item>
+  <item name="SelectSource">Tarama kaynağını seçin...</item>
+  <item name="SelectSourceFilter">Görüntü dosyaları (*.jpg, *.png, *.gif, *.tif, *.bmp)|*.jpg;*.gif;*.png;*.tif;*.tiff;*.jpeg;*.bmp|Bütün dosyalar (*.*)|*.*</item>
+  <item name="BackButton1">&lt; Geri</item>
+  <item name="ContinueButton2">Devam &gt;</item>
+
+<!-- 2. Select paper size -->
+  <item name="PaperSizeLabel">Kağıt ölçüsünü belirle (2/5)</item>
+  <item name="StandardPaperRadio">Standart kağıt kullan</item>
+  <item name="PaperSizeCombo">A4 (210x297 mm)|A3 (297x420 mm)|US Letter (216x279 mm)|US Legal (216x356 mm)</item>
+  <item name="PaperAlignCombo">dikey|yatay</item>
+  <item name="CustomPaperRadio">Özel kağıt kullan</item>
+  <item name="WidthLabel">Genişlik</item>
+  <item name="HeightLabel">Yükseklik</item>
+  <item name="BackButton2">&lt; Geri</item>
+  <item name="ContinueButton3">Devam &gt;</item>
+
+<!-- 3. Define output size -->
+  <item name="OutputSizeLabel">Çıktı ölçüsünü belirle (3/5)</item>
+  <item name="SheetsLabel">kağıt</item>
+  <item name="MeasureDimensionCombo">yükseklik|en</item>
+  <item name="OutputImageSize">Çıktı görüntü ölçüsü:</item>
+  <item name="PaperConsumption">Kağıt tüketimi:</item>
+  <item name="sheet">Kağıt</item>
+  <item name="sheets">Kağıt</item>
+  <item name="BackButton3">&lt; Geri</item>
+  <item name="ContinueButton4">Devam &gt;</item>
+
+<!-- 4. Set rasterbation options -->
+  <item name="SetOptionsLabel">Tarama özelliklerini belirle (4/5)</item>
+  <item name="CutoutCheckbox">Taranan bölge çevresini belirle</item>
+  <item name="CutoutInfoLabel">Bu özellik her sayfadaki görüntünün etrafına - kesme işleminizi kolaylaştırmak için - ince bir çizgi çizer. Eğer sayfa kenarlarındaki boşlukları kesmiyecekseniz bu seçeneği işaretlemeyin.</item>
+  <item name="DotSizeLabel">Nokta </item>
+  <item name="DotSizeInfoLabel">Nokta ölçüsü tarama sırasında kullanınılan en büyük nokta büyüklüğünü belirler. Genel olarak 5-25 mm arasındadır, ancak denemeler yapmak istiyorsanız başka ölçülerde kullanabilirsiniz.</item>
+  <item name="ColorModeLabel">Renk seçeneği</item>
+  <item name="BlackRadio">Siyah</item>
+  <item name="CustomColorRadio">Özel renk:</item>
+  <item name="SelectButton">Seçin...</item>
+  <item name="MultiColorRadio">Çok renkli</item>
+  <item name="BackButton4">&lt; Geri</item>
+  <item name="ContinueButton5">Devam &gt;</item>
+  <item name="ConfirmOptions">Özellikleri Onaylayın</item>
+  <item name="SmallDotSizeWarning">Küçük noktalar (3 mm'den küçük) kullanarak tarama yapmanız çok fazla hafıza kullanımına ve taramanın uzun sürmesine sebep olur. Devam etmek istiyormusunuz?</item>
+
+<!-- 5. Save rasterbation as -->
+  <item name="SaveAsLabel">Taramayı ... olarak kaydet (5/5)</item>
+  <item name="BrowseButton2">Göz at...</item>
+  <item name="SelectTargetFilter">Pdf dosyaları (*.pdf)|*.pdf</item>
+  <item name="BackButton5">&lt; Geri</item>
+  <item name="RasterbateButton">Tara!</item>
+
+<!-- Rasterbating! -->
+  <item name="PleaseWaitLabel">Taranıyor, lütfen bekleyin...</item>
+  <item name="EstimatedTimeRemainingLabel">Tahmini kalan süre:</item>
+  <item name="hour">saat</item>
+  <item name="hours">saat</item>
+  <item name="minute">dakika</item>
+  <item name="minutes">dakika</item>
+  <item name="second">saniye</item>
+  <item name="seconds">saniye</item>
+  <item name="LowPriorityRasterbation">Düşük öncelikte tara</item>
+  <item name="RasterbateBackgroundInfoLabel">Tarama sırasında başka programları kullanacaksanız burayı işaretleyin. Tarama daha uzun sürer, ancak diğer programlar daha rahat kullanılır.</item>
+
+<!-- Completed -->
+  <item name="CompletedLabel">Tarama tamamlandı!</item>
+  <item name="PrintInfoLabel">Adobe Reader'da yazdırırken açılan pencerede " Page scaling: Fit to paper " seçeneğini işaretleyin. Eğer yatay kağıt ayarlamasını seçerseniz " Auto-Rotate and Center " seçeneğinin işaretli olduğundan emin olun. Bir çok yazıcı sayfa kenarlarına baskı yapamaz, bu seçenekler resmin tam olarak yazdırılmasını sağlar.</item>
+  <item name="GalleryPlugLabel">Resminizin fotografını çekerek Tarama Galerisine gönderin lütfen!</item>
+  <item name="OpenFileCheckbox">Taranan dosyayı aç</item>
+  <item name="CloseApplicationButton">Programı kapat</item>
+</language>
